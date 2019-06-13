@@ -5,10 +5,7 @@ var $ModulePath = path.dirname(url.fileURLToPath(import.meta.url));
 
 //https://github.com/koajs/static#options
 export var staticSites = [
-    // {
-    //     root: `${$ModulePath}`
-    // },
     {
-        root: `${$ModulePath}\\..\\CustomyzerProjectExplorer`
+        root: `${$ModulePath}`
     }
 ]
