@@ -15,4 +15,6 @@ app.use(
     )
 );
 
+// add https://github.com/koajs/mount support and a json to represent all the koa static options you want used
+
 app.listen(3000);
